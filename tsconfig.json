@@ -1,17 +1,13 @@
 {
   "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
     "strict": true,
-    "target": "esnext",
-    "downlevelIteration": true,
-    "esModuleInterop": true,
-    "module": "nodenext",
-    "skipLibCheck": true,
-    "noUncheckedIndexedAccess": true,
-    "exactOptionalPropertyTypes": true,
-    "types": ["react/experimental"],
+    "types": [
+      "node"
+    ],
     "jsx": "react-jsx",
-    "paths": {
-      "~/*": ["./src/*"]
-    }
+    "jsxImportSource": "hono/jsx",
   }
 }
